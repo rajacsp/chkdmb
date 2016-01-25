@@ -1,0 +1,354 @@
+@media (min-width: 1200px) {
+	.container { width: 500px;}/*320px*/
+}
+.glyphicon-size1 {
+	font-size: 20px;
+	line-height: 20px;
+	height: 30px;
+}
+.glyphicon-size2 {
+	font-size: 20px;
+	line-height: 20px;
+}
+.ajax_loader1 {
+	padding: 10px 10px;	
+}
+.input-sub-button {
+	position: relative;
+}
+.input-field-box {
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+.panel-default {
+	border-color: #ddd;	
+}
+.highlight_blue {
+	border-color: #428bca;	
+}
+.highlight_blue_text {
+	color: #428bca;	
+}
+.form-control.input-field-box, .input-field-box, .input-field-box:focus {
+	padding-right: 12%;
+}
+.input-field-box-button {
+	position: absolute;
+	left: 0;
+    border: 0;
+    height: 25px;
+    width: 25px;
+	left: 89%;
+	top: 10px;
+	z-index: 10;
+    -webkit-appearance: none;
+	border: none;
+	cursor: pointer;
+}
+.input-field-box-button:focus, .input-field-box-button:hover {
+	border: none;	
+}
+#recent_challenges_panel .title-icons a {
+	display: inline-block;
+	padding: 0 2px;	
+}
+#recent_challenges_panel .title-icons a:hover {
+	text-decoration: none;	
+}
+#recent_challenges_panel .icons-left-col {
+	width: 66.66666667%;
+	padding: 0 0 0 8px;
+}
+#recent_challenges_panel .icons-right-col {
+	width: 33.33333333%;
+	padding: 6px 2px 0 0;
+}
+#recent_challenges_panel .icons-left-col,
+#recent_challenges_panel .icons-right-col {
+	float: left;
+}
+.color-default {
+ color: #777;
+}
+.color-primary {
+ color: #428bca;
+}
+.color-success {
+ color: #5cb85c;
+}
+.color-info {
+ color: #5bc0de;
+}
+.color-warning {
+ color: #f0ad4e;
+}
+.color-danger {
+ color: #d9534f;
+}
+.icons-holder {
+	margin: 0;
+	padding: 0;	
+	height: 70px;
+}
+.icons-holder li {
+	float: left;
+	display: block;
+	padding: 10px 0px;
+	width: 56px;
+	height: 60px;
+	text-align: center;
+	position: relative;
+}
+.icons-holder li a .number {
+	position: absolute;
+	z-index: 10;
+	right: 5px;
+	top: 0px;
+	font-weight: bold;
+	font-size: 16px;
+	width: 22px;
+	height: 22px;
+	transition:font-size 0.5s;
+	-moz-transition:font-size 0.5s;
+	-webkit-transition:font-size 0.5s;
+	-o-transition:font-size 0.5s;
+	transition:color 0.5s;
+	-moz-transition:color 0.5s;
+	-webkit-transition:color 0.5s;
+	-o-transition:color 0.5s;
+	color: #04618a;/*0f0f0f*/
+}
+.icons-holder li a:hover .number
+{
+	position: absolute;
+	z-index: 10;
+	right: 5px;
+	top: -3px;
+	font-size: 23px;
+	font-weight: bold;
+	width: 22px;
+	height: 22px;
+	transition:font-size 0.3s;
+	-moz-transition:font-size 0.3s;
+	-webkit-transition:font-size 0.3s;
+	-o-transition:font-size 0.3s;
+	transition:color 0.3s;
+	-moz-transition:color 0.3s;
+	-webkit-transition:color 0.3s;
+	-o-transition:color 0.3s;
+	color: #04618a;
+}
+.icons-holder li a .number:hover {
+	transition:font-size 0.3s;
+	-moz-transition:font-size 0.3s;
+	-webkit-transition:font-size 0.3s;
+	-o-transition:font-size 0.3s;
+	transition:color 0.3s;
+	-moz-transition:color 0.3s;
+	-webkit-transition:color 0.3s;
+	-o-transition:color 0.3s;
+	color: #04618a;
+}
+.icons-holder li a img {
+	width: 42px;
+	height: 42px;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 0.3s;
+    transition-property: width, height;
+    transition-duration: 0.3s;
+}
+.icons-holder li a:hover img, .icons-holder li a.active img {
+	width: 56px;
+	height: 56px;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 0.3s;
+    transition-property: width, height;
+    transition-duration: 0.3s;
+}
+/* Challenges */
+#other_challenges {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0;
+}
+#other_challenges .row {
+	width: 100%;
+	margin: 10px 0;
+}
+#other_challenges .row .col1 {
+	width: 13%;
+	text-align: center;
+	margin-right: 3%;
+	padding: 5px 6px;
+}
+#other_challenges .row .col2 {
+	width: 84%;
+	font-size: 12px;
+	line-height: 25px;
+	overflow: hidden;
+	padding: 5px 10% 5px 5%;
+}
+#other_challenges .row .col1,
+#other_challenges .row .col2 {
+	border: solid 1px #ddd;
+	float: left;
+	height: 36px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #428bca;
+}
+#other_challenges .row .col1 .user_checked {
+	background: url(../images/user_checked.png) no-repeat 0 0;
+	height: 24px;
+	width: 24px;
+	display: block;
+	background-size: 24px;
+}
+#other_challenges .row .col2:hover {
+	background: url(../images/pie-icon.png) no-repeat 98% 4px;
+}
+#recent_challenges_subsection_panel {
+	position: relative;	
+}
+.threads-line {
+	height: 87px;
+	width: 96%;
+	margin: 0 2%;
+	display: block;
+	position: absolute;
+	top: -35px;
+	z-index: 5;
+}
+.threads-line .pull-left {
+	background: url(../images/threads_left.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 21px;
+	height: 52px;
+	display: block;
+}
+.threads-line .pull-right {
+	background: url(../images/threads_right.png) no-repeat 0 0;
+	background-size: 100%;
+	width: 21px;
+	height: 52px;
+	display: block;
+}
+#subsection_panel_content {
+	padding-top: 20px;	
+}
+/* Calendar */
+.xdsoft_datetimepicker .xdsoft_datepicker.active, .xdsoft_datetimepicker .xdsoft_timepicker.active, .xdsoft_datepicker {
+	width: 97%;	
+}
+.xdsoft_datetimepicker .xdsoft_month {
+	width: auto;	
+}
+.xdsoft_datetimepicker {
+	width: 100%;	
+}
+.xdsoft_datetimepicker .xdsoft_datepicker.active+.xdsoft_timepicker {
+	width: 95%;	
+}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+	height: 26px;	
+}
+/* Sub Sections */
+#subsection_panel_content {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#subsection_panel_content .title-info {
+	width: 100%;
+	font-size: 12px;
+	font-weight: bold;	
+}
+/* Users List */
+#subsection_panel_content .users_list {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+}
+#subsection_panel_content .users_list li {
+	margin: 0;
+	padding: 5px 5px;
+	font-size: 11px;	
+}
+#subsection_panel_content .users_list li img {
+	padding-right: 5px;
+	width: 40px;
+	height: auto;
+	max-height: 40px;
+}
+
+/* Category List */
+#subsection_panel_content .category_list {
+	margin: 0 auto;
+	padding: 0;
+	width: 86%;
+	list-style-type: none;
+}
+#subsection_panel_content .category_list li {
+	margin: 0;
+	padding: 10px 15px;
+	margin: 5px 0;
+	font-size: 12px;
+	border: solid 1px #ddd;
+	border-radius: 3px;
+	cursor: pointer;
+	position: relative;
+	background: #FFF;
+}
+#subsection_panel_content .category_list li span {
+	position: absolute;
+	right: -23px;
+	top: 6px;
+}
+#subsection_panel_content .category_list li.active,
+#subsection_panel_content .category_list li:hover {
+	background-color: #136e8d;
+	color: #FFF;
+}
+
+/* Group List */
+#subsection_panel_content .group_list {
+	margin: 0 auto;
+	padding: 0;
+	width: 86%;
+	list-style-type: none;
+}
+#subsection_panel_content .group_list li {
+	margin: 0;
+	padding: 10px 15px;
+	margin: 5px 0;
+	font-size: 12px;
+	border: solid 1px #ddd;
+	border-radius: 3px;
+	cursor: pointer;
+	position: relative;
+	background: #FFF;
+}
+#subsection_panel_content .group_list li span {
+	position: absolute;
+	right: -23px;
+	top: 6px;
+}
+#subsection_panel_content .group_list li.active,
+#subsection_panel_content .group_list li:hover {
+	background-color: #4067b1;
+	color: #FFF;
+}
+/* #Landscap Fix */
+@media only screen and (min-width: 479px) {
+#other_challenges .row .col1 { width: 8%; }
+#other_challenges .row .col2 { width: 89%; }
+}
+
+/* Custom entries by Raja */
+section.first_heading h3{
+	color:#428bca;
+}
+section.second_heading h3{
+	color:#428bca;
+}
